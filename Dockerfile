@@ -2,7 +2,7 @@ FROM ubuntu:19.10
 
 WORKDIR /root
 
-LABEL version="0.15.0"
+LABEL version="0.16.0"
 LABEL repository="https://github.com/axetroy/actions-deno"
 LABEL homepage="https://github.com/axetroy/actions-deno"
 LABEL maintainer="Axetroy <axetroy.dev@gmail.com>"
@@ -12,7 +12,7 @@ LABEL com.github.actions.description="Wraps the Deno CLI."
 LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="blue"
 
-ENV DENO_VERSION v0.15.0
+ENV DENO_VERSION v0.16.0
 
 RUN apt-get update \
   && apt-get install -y curl \
