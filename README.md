@@ -16,6 +16,8 @@ action "Run test" {
 }
 ```
 
+Here is an [example for using](https://github.com/axetroy/deno_math/blob/master/.github/main.workflow)
+
 
 ## License
 
