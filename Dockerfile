@@ -3,8 +3,8 @@ FROM ubuntu:19.10
 WORKDIR /root
 
 LABEL version="0.16.0"
-LABEL repository="https://github.com/axetroy/actions-deno"
-LABEL homepage="https://github.com/axetroy/actions-deno"
+LABEL repository="https://github.com/denolib/deno-action"
+LABEL homepage="https://github.com/denolib/deno-action"
 LABEL maintainer="Axetroy <axetroy.dev@gmail.com>"
 
 LABEL com.github.actions.name="GitHub Action for Deno"

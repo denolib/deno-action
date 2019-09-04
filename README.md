@@ -11,7 +11,7 @@ workflow "Test" {
 }
 
 action "Run test" {
-  uses = "axetroy/deno-action@0.16.0"
+  uses = "denolib/deno-action@0.16.0"
   args = "run test.ts"
 }
 ```
@@ -21,4 +21,4 @@ Here is an [example for using](https://github.com/axetroy/deno_math/blob/master/
 
 ## License
 
-The [MIT License](https://github.com/axetroy/deno-action/blob/master/LICENSE)
+[MIT](LICENSE) © 2019 DenoLib Contributors.
