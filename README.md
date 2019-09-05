@@ -11,7 +11,7 @@ workflow "Test" {
 }
 
 action "Run test" {
-  uses = "denolib/deno-action@0.16.0"
+  uses = "denolib/deno-action@0.17.0"
   args = "run test.ts"
 }
 ```
