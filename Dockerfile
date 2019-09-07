@@ -12,7 +12,7 @@ LABEL com.github.actions.description="Wraps the Deno CLI."
 LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="blue"
 
-ENV DENO_VERSION v0.16.0
+ENV DENO_VERSION v0.17.0
 
 RUN apt-get update \
   && apt-get install -y curl \
