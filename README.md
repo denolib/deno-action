@@ -1,8 +1,8 @@
-# A action for Github to run Deno command line.
+# An action for Github to run Deno command line.
 
 ## Usage
 
-create `.github/main.workflow` in you project
+create `.github/main.workflow` in your project
 
 ```workflow
 workflow "Test" {
